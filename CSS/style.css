@@ -14,15 +14,13 @@
 }
 
 .displayBox {
-    width: 150px; /*How Wide the box is*/
     border: 5px solid rgb(0, 0, 0);
     border-radius: 5px; /*Curves Edges*/
-    padding: 200px; /*How High the box is*/
-    height: 70px;
     background-color: rgb(73, 73, 73);
-    margin: auto;
+    width: 500px; /*How Wide the box is*/
+    height: 50px;
     left: 50%;
-    margin-top: 0px;
+    margin-left: -250px;
     position: relative;
     display: inline-flex; /*So that the box won't move with the screen and overlap*/
 }

@@ -1,5 +1,5 @@
 .Background {
-    background-image: url("abstract-blue-background-simple-design-for-your-website-free-vector.jpg"); /*Background Image*/
+    background-image: url("C:\Users\Theda\OneDrive\Documents\GitHub\CalculatorWebsite\abstract-blue-background-simple-design-for-your-website-free-vector.jpg"); /*Background Image*/
     width: 1860px;
 }
 
@@ -16,11 +16,34 @@
 .displayBox {
     border: 5px solid rgb(0, 0, 0);
     border-radius: 5px; /*Curves Edges*/
-    background-color: rgb(73, 73, 73);
+    background-color: rgb(204, 201, 201);
     width: 500px; /*How Wide the box is*/
     height: 50px;
     left: 50%;
     margin-left: -250px;
     position: relative;
     display: inline-flex; /*So that the box won't move with the screen and overlap*/
+}
+
+.numberButtons {
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 5px; /*Curves Edges*/
+    background-color: rgb(73, 73, 73);
+    width: 500px; /*How Wide the box is*/
+    height: 500px;
+    left: 50%;
+    margin-left: -250px;
+    position: relative;
+    display: flex; /*So that the box won't move with the screen and overlap but is on next line*/
+}
+
+.numberBox {
+    background-color: rgb(108, 110, 233);
+    border: 5px solid rgb(0, 0, 0);
+    width:92px; /*3 Buttons per row + the Operators which will be 200px. - 8 for 8px used as border*/
+    height: 110px; /*4 Columns. 500/4 = 125 - 15 for 15px used for border*/
+    position: relative;
+    text-align: center;
+    font-weight: bold; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

@@ -2,3 +2,27 @@
     background-image: url("abstract-blue-background-simple-design-for-your-website-free-vector.jpg"); /*Background Image*/
     width: 1860px;
 }
+
+.calculatorHeader {
+    font-size: 40px;
+    color: #f0a13b;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    margin-top: 100px; /*So Text Will Be In a nice position*/
+    
+    text-align: center; /* Centers Text */
+}
+
+.displayBox {
+    width: 150px; /*How Wide the box is*/
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 5px; /*Curves Edges*/
+    padding: 200px; /*How High the box is*/
+    height: 70px;
+    background-color: rgb(73, 73, 73);
+    margin: auto;
+    left: 50%;
+    margin-top: 0px;
+    position: relative;
+    display: inline-flex; /*So that the box won't move with the screen and overlap*/
+}

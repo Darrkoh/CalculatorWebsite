@@ -35,15 +35,23 @@
     margin-left: -250px;
     position: relative;
     display: flex; /*So that the box won't move with the screen and overlap but is on next line*/
+    flex-flow: column nowrap;
 }
 
-.numberBox {
-    background-color: rgb(108, 110, 233);
-    border: 5px solid rgb(0, 0, 0);
-    width:92px; /*3 Buttons per row + the Operators which will be 200px. - 8 for 8px used as border*/
-    height: 110px; /*4 Columns. 500/4 = 125 - 15 for 15px used for border*/
-    position: relative;
+.flex-grid {
+    background-color: beige;
+    display: flex;
+    height: 500px;
+    width: 300px;
     text-align: center;
-    font-weight: bold; 
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 110px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.col {
+    border: 1px, solid rgb(0, 0, 0);
+    top:50%;
+    flex: 1;
+    align-items: center; /*So Items are Centered and look nice*/
 }
